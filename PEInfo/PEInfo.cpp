@@ -9,7 +9,7 @@ int main()
 {
 	//获取文件句柄
 	HANDLE hFile = CreateFile(
-		L"F:\\vsstudio\\PEInfo\\Debug\\test.exe",
+		L"C:\\Windows\\System32\\notepad.exe",
 		GENERIC_READ,
 		0,
 		NULL,
